@@ -37,7 +37,7 @@ function test_ipv4() {
     fi
 
     echo -e "\033[32m恭喜 你的IP可以打开Netflix 并解锁全部流媒体 区域: ${region}\033[0m";
-    echo -e "\033[31m购买合租奈飞 https://is.gd/DyeEc6\033[0m";
+    echo -e "\033[31m购买合租奈飞 https://is.gd/jedEXo\033[0m";
     return;
 }
 
@@ -45,7 +45,7 @@ function test_ipv6() {
     result=`curl -6sSL "https://www.netflix.com/" 2>&1`;
     if [ "$result" == "Not Available" ];then
         echo -e "\033[34m很遗憾 Netflix不服务此地区\033[0m";
-        echo -e "\033[31m购买合租奈飞 https://is.gd/DyeEc6\033[0m";
+        echo -e "\033[31m购买合租奈飞 https://is.gd/jedEXo\033[0m";
         return;
     fi
     
@@ -80,7 +80,7 @@ function test_ipv6() {
     fi
     
     echo -e "\033[32m恭喜 你的IP可以打开Netflix 并解锁全部流媒体 区域: ${region}\033[0m";
-    echo -e "\033[31m购买合租奈飞 https://is.gd/DyeEc6\033[0m";
+    echo -e "\033[31m购买合租奈飞 https://is.gd/jedEXo\033[0m";
     return;
 }
 export LANG="en_US";
